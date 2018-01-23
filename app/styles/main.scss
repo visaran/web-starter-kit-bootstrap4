@@ -23,5 +23,8 @@ will be correctly compiled during `gulp serve` and `gulp`
 
 @import 'bootstrap/bootstrap';
 
+@import 'common/global';
+@import 'common/helpers';
+
 @import 'layout/header';
 @import 'layout/footer';
