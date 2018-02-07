@@ -1,3 +1,16 @@
-h1 {
-	color: blue;
+.header {
+	display: flex;
+	height: 80px;
+
+	img, nav, form {
+		align-self: center;
+	}
+
+	nav {
+	    margin-left: auto;
+	}
+
+	input {
+		height: 50px;
+	}
 }
